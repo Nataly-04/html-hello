@@ -1,0 +1,72 @@
+body {
+    justify-content: center;
+    align-items: center;
+    font-family: "roboto", sans-serif;
+    display: flex;
+}
+.post { 
+    width: 500px;
+    justify-content: center; 
+    align-items: center;
+    border: 1px solid #dbdbdb;
+   
+}
+
+.post-header{
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    top: 20PX;
+}
+
+.left-logo {
+    left: 10px;
+    position: absolute;
+    display: inline-block;
+
+}
+.right-menu {
+    right: 10px;
+    position: absolute;
+    display: inline-block;
+
+}
+
+.post-user-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 380px;
+}
+
+i{
+    font-size: 30px;
+}
+
+.perfil {
+    margin-top: 25px;
+    width: 500px;
+    
+}
+.post-icons {
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+    top: 20PX;
+}
+.left-icons { 
+    position: absolute;
+    left: 10px;
+    display: inline-block;
+}
+.right-icon {
+    position: absolute;
+    right: 10px;
+    display: inline-block;
+}
+.post-likes {
+    margin-top: 60px;
+    margin-left: 10px;
+    
+}
